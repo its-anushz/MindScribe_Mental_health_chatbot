@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindScribe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">MindScribe</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#chatbot">ChatBot</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">MindScribe</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#chatbot" onclick="toggleMenu()">ChatBot</a></li>
+          <li><a href="#resources" onclick="toggleMenu()">Resources</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="section__pic-container">
+        <img src="brain1.png" alt="picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p2">Hey there!</p>
+        <h4 class="title">Welcome to MindScribe!</h4>
+        <p class="section__text__p2">a Mental Health Care Hub.</p>
+          <button class="btn btn-color-1" onclick="location.href='#resources'">
+            Explore!
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="chatbot">
+      <p class="section__text__p1"><h1>Our MindScribe ChatBot</h1></p>
+      <h2 class="title">'Try Now!'</h2>
+              <button class="btn1 btn-color-1" onclick="location.href='http://127.0.0.1:5000'">
+                Click Here to Chat now!
+              </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="resources">
+      <p class="section__text__p1"><h1>Some Resources</h1></p>
+      <h2 class="title">Just For You!</h2><br>
+      <h3>Explore articles and videos to support your mental well-being.</h3><br>
+      <br><p class="section__text__p1"><h1><u>Articles</u></h1></p>
+      <div class="experience-details-container">
+        <div class="chatbot-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title resource-title">Hope and Optimism as an Opportunity to Improve the “Positive Mental Health” Demand</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 resource-btn"
+                onclick="location.href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8907849/'"
+              >
+                Click Here!
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title resource-title">Kids’ mental health is in crisis. Here’s what psychologists are doing to help</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 resource-btn"
+                onclick="location.href='https://www.apa.org/monitor/2023/01/trends-improving-youth-mental-health'"
+              >
+                Click Here!
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title resource-title">For schools, youth workers and volunteers in the community Building positive mental health-Resources</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 resource-btn"
+                onclick="location.href='https://www.youngminds.org.uk/professional/resources/building-positive-mental-health/'"
+              >
+                Click Here!
+              </button>
+          </div>
+        </div>
+      </div>
+      <section id="resources">
+        <p class="section__text__p1"><h1><u>Videos</u></h1></p>
+        <div class="experience-details-container">
+          <div class="chatbot-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="video1.png"
+                  alt="video 1"
+                  class="resource-img"
+                />
+              </div>
+              <h2 class="experience-sub-title resource-title">"The power of vulnerability" | Brené Brown</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 resource-btn"
+                  onclick="location.href='https://youtu.be/iCvmsMzlF7o?si=0uQ-XzDT1BeuPC4M'"
+                >
+                  Click Here!
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="video2.png"
+                  alt="video 2"
+                  class="resource-img"
+                />
+              </div>
+              <h2 class="experience-sub-title resource-title">"Guided Mindfulness Meditation for a Powerful Mind" | MindfulPeace</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 resource-btn"
+                  onclick="location.href='https://youtu.be/mZxcw2rPWxU?si=fbEtRwquBAABqRxj'"
+                >
+                  Click Here!
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="video3.png"
+                  alt="video 3"
+                  class="resource-img"
+                />
+              </div>
+              <h2 class="experience-sub-title resource-title">"There's more to happiness than you think"| Emily Esfahani Smith</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 resource-btn"
+                  onclick="location.href='https://youtu.be/y9Trdafp83U?si=1eOjEh0crOV_qIJQ'"
+                >
+                  Click Here!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><h3>For Emergency Response Support System (Pan India), call: <u>112</u> </h3>
+    </section>
+    <section id="about">
+      <p class="section__text__p1"><h1>About Us</h1></p>
+      <h2 class="title">the creaters :)</h2>
+      <div class="about-info-upper-container">
+        <div class="about-info-container">
+          <div class="section__pic-container">
+            <img src="group.jpg" alt="picture" />
+          </div>
+          <p>
+           <p>
+            Welcome to <i><b>'MindScribe'!</b></i><br>We are a dedicated team of four final-year <b>Computer Science and Engineering</b>  students at University B D T College of Engineering, united by our passion for leveraging technology to make a <b>positive impact on mental health.</b>            
+          </p>
+        </div>
+      </div>
+     </section>
+     <section id="about">
+      <div class="about-info-upper-container1">
+        <div class="about-info-container1">
+           <p><h2>Our Project:</h2></p>
+           <p><b>MindScribe</b> is our endeavor to create an innovative mental health chatbot. With a blend of technical expertise and a genuine interest in mental well-being, we aim to make a positive impact.<br>
+            <br>Thank you for visiting !
+          </p>
+        </div>
+      </div>
+     </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#chatbot">ChatBot</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#about">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 MindScribe. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
