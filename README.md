@@ -10,7 +10,7 @@ MindScribe is a web-based mental health chatbot developed as part of our **B.E. 
 - 📝 Journaling and mood tracking  
 - 🧘 Mindfulness exercises  
 - 📊 Mental health self-tests  
-- 📞 SOS hotline (Malaysia)
+- 📞 SOS hotline
 
 ---
 
